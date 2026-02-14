@@ -11,7 +11,7 @@ echo "================================"
 
 # Clean and build
 echo "[1/4] Building app..."
-cd "$(dirname "$0")/QuickWindowSelector"
+cd "$(dirname "$0")"
 swift build -c release
 
 # Create output directory
